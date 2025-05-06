@@ -4,7 +4,7 @@ A deep learning-based system that translates sign language gestures into text an
 
 ## Project Overview
 
-This project implements a real-time sign language translation system that captures hand gestures through a webcam and converts them into meaningful text or speech output. By leveraging MediaPipe Holistic for landmark detection and employing dual model architecture (GRU and MLP), the system delivers accurate and responsive sign language interpretation.
+This project implements a real-time sign language translation system that captures hand gestures through a webcam and converts them into meaningful text output. By leveraging MediaPipe Holistic for landmark detection and employing dual model architecture (GRU and MLP), the system delivers accurate and responsive sign language interpretation.
 
 ## Repository Contents
 
@@ -22,7 +22,6 @@ This project implements a real-time sign language translation system that captur
   - **GRU model**: 96.8% accuracy with superior temporal sequence modeling
   - **MLP model**: 93.2% accuracy with faster inference for resource-constrained environments
 - **10 common sign vocabulary**: hello, goodbye, thank you, please, yes, no, stop, come, go, and sorry
-- **Text-to-speech capability**: Converts recognized signs to spoken output
 - **Visual feedback**: Displays landmarks and predictions on the video feed
 
 ## Technical Approach
@@ -52,7 +51,6 @@ The system follows a modular pipeline architecture:
 - NumPy
 - Pandas
 - Matplotlib
-- pyttsx3 (for text-to-speech)
 
 ## Getting Started
 
