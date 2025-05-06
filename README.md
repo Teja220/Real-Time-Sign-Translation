@@ -58,8 +58,8 @@ The system follows a modular pipeline architecture:
 
 1. Clone this repository:
 ```
-git clone https://github.com/username/sign-language-translation.git
-cd sign-language-translation
+git clone https://github.com/Teja220/Real-Time-Sign-Translation.git
+cd Real-Time-Sign-Translation
 ```
 
 2. Install dependencies:
